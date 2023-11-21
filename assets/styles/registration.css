@@ -1,0 +1,266 @@
+@import url('../styles/fonts.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+a{
+    font-family: 'Op Reg', sans-serif;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    width: 1650px;
+    margin: 0 auto;
+}
+.navigation__section {
+    width: 100%;
+    background-color: #212121;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 41px 0px 34px 0px;
+}
+
+.logo {
+    display: flex;
+
+}
+.logo img{
+    padding-right: 0.4rem;
+}
+.text__logo h1{
+    font-family: 'Sq';
+    font-size: 2rem;
+    color: #00C2FF;
+}
+.text__logo h3{
+    font-family: 'Op Light', sans-serif;
+    font-size: 1rem;
+    color: #FF7A00;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+}
+.nav a{
+    color: #FAFAFA;
+    text-align: center;
+    font-family: 'Op Sem', sans-serif;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+
+    padding-right: 4rem;
+
+    transition: all ease 0.4s;
+}
+.nav a:hover{
+    color: #00C2FF;
+    transition: all ease 0.4s;
+}
+.lk__contact {
+    display: flex;
+    align-items: center;
+}
+
+.call{
+    display: flex;
+}
+.call h4{
+    color: #FAFAFA;
+    font-family: 'Op Sem';
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: right;
+
+    padding-left: 0.5rem;
+}
+.graphic__work p{
+    color: #FAFAFA;
+    font-family: 'Op Sem';
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: right;
+}
+.graphic__work span{
+    color: #00C2FF;
+}
+.number_graphic{
+    padding-left: 2.2rem;
+}
+
+
+.regisration___section{
+    background-color: #FAFAFA;
+    padding-top: 9.2rem;
+    padding-bottom: 10rem;
+}
+form .title{
+    color: #212121;
+    text-align: center;
+    font-family: 'Op Bold';
+    font-size: 3.2rem;
+
+    padding-bottom: 5.2rem;
+}
+form .field input {
+    display: flex;
+    width: 41.3rem;
+    padding: 2.5rem 2.5rem;
+    align-items: center;
+    border-radius: 2rem;
+    background: #EFEFEF;
+
+    margin-bottom: 3rem;
+}
+form .field input::placeholder {
+    color: #737373;
+    text-align: center;
+    font-family: 'Op Light';
+    font-size: 1.8rem;
+}
+.obrabotka_per_dann{
+    display: flex;
+}
+.obrabotka_per_dann p{
+    padding-left: 1rem;
+    color: #212121;
+    font-family: 'Op Light';
+    font-size: 1.2rem;
+}
+.obrabotka_per_dann a{
+    color: #00C2FF;
+    font-family: 'Op Sem';
+    text-decoration-line: underline;
+}
+.but-res{
+    display: flex;
+    padding: 1rem 7.4rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    background: #00C2FF;
+    transition: all ease 0.3s;
+
+    margin-top: 3rem;
+}
+.but-res a{
+    color: #FAFAFA;
+    text-align: center;
+    font-family: 'Op Reg';
+    font-size: 2rem;
+}
+.but-res:hover{
+    background: #029dcc;
+    transition: all ease 0.3s;
+}
+
+.autor p{
+    color: #212121;
+    text-align: center;
+    font-family: 'Op Reg';
+    font-size: 1.6rem;
+
+}
+
+.autor a{
+    font-family: 'Op Sem';
+    text-decoration: none;
+    color: #00C2FF;
+    text-decoration-line: underline;
+}
+.forms{
+    background-color: #fff;
+    width: 42%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 8.9rem 16rem;
+    border-radius: 3rem;
+    box-shadow: 0px 4px 30.8px 0px rgba(0, 0, 0, 0.05);
+}
+form{
+    padding-bottom: 6rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form__registration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer__section{
+    background-color: #212121;
+}
+.copyrite p{
+    color: #A1A1A1;
+    text-align: center;
+    font-family: 'Op Light';
+    font-size: 1.6rem;
+
+    padding-top: 2rem;
+}
+.box__footer a{
+    color: #A1A1A1;
+    text-align: center;
+    font-family: 'Op Light';
+    font-size: 1.6rem;
+
+    transition: all ease 0.4s;
+}
+.box__footer a:hover{
+    color: rgb(1, 101, 131);
+    transition: all ease 0.4s;
+}
+.footer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 6.6rem 0rem 6.6rem 0rem;
+}
+.logotype__copyrite{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.footer__box_1, .footer__box_2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: left;
+}
+.nobullet{
+    list-style-type: none;
+}
+.nobullet li{ 
+    padding-bottom: 1rem;
+}
+.box__footer{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.sohial{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.sohial #s_1{
+    padding-right: 1.5rem;
+}
